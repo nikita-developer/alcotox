@@ -29,7 +29,7 @@ $(document).ready(function() {
         autoHeight: true,
         items: 1,
         responsive : {
-            480 : {
+            481 : {
                 nav: true,
             }
         }
