@@ -25,6 +25,18 @@
         }
     }
 
+    &_footer {
+        padding-bottom: 60px;
+
+        & .face__appearance {
+            display: none;
+        }
+
+        &::before {
+            display: none;
+        }
+    }
+
     &_drugs {
         margin-top: -101px;
         background-image: url("../media/section/drugs.jpg");
@@ -63,6 +75,10 @@
         background-image: url("../media/section/professional.jpg");
         background-repeat: no-repeat;
         background-position: center top;
+    }
+
+    &_warning {
+        background-color: #f3f3f3;
     }
 }
 
