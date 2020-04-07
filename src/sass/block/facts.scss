@@ -21,7 +21,6 @@
     max-width: 638px;
     padding: 50px 25px;
     margin-left: auto;
-    text-align: right;
     background-color: #ffeaeb;
     border: 3px solid  #da4d52;
 }
@@ -29,19 +28,19 @@
 .facts__item {
     position: relative;
     min-height: 45px;
-    padding-right: 67px;
+    padding-left: 67px;
     font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
 
     & mark {
-        color: #da4d52;
+        color: #6b1f22;
     }
 
     &::before {
         position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
         width: 45px;
         height: 45px;
         content: '';
@@ -78,7 +77,7 @@
     }
 
     .facts__item {
-        padding-right: 55px;
+        padding-left: 55px;
         font-size: 14px;
     }
 }
