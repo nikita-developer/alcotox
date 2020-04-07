@@ -42,6 +42,11 @@
     cursor: pointer;
     background-image: url("../media/chance/btn.png");
     background-repeat: no-repeat;
+    transition: .3s transform;
+
+    &:hover {
+        transform: scale(.95);
+    }
 }
 
 .chance__list {

@@ -116,6 +116,11 @@
     background-size: 100% auto;
     border: none;
     outline: none;
+    transition: .3s transform;
+
+    &:hover {
+        transform: scale(.95);
+    }
 }
 
 @media (max-width: 1030px) {
