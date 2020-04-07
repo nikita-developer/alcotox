@@ -39,6 +39,10 @@
     height: 95px;
     margin-right: auto;
     margin-left: auto;
+    font-size: 24px;
+    line-height: 71px;
+    color: #fff;
+    text-align: center;
     cursor: pointer;
     background-image: url("../media/chance/btn.png");
     background-repeat: no-repeat;
@@ -125,6 +129,7 @@
 
     .chance__btn {
         margin-right: auto;
+        line-height: 71px;
     }
 
     .chance__sub-title {
