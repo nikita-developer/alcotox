@@ -114,7 +114,16 @@
         font-size: 14px;
     }
 
+    .professional__footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .professional__name {
+        order: 1;
+        margin-left: 20px;
         font-size: 14px;
+        line-height: 1;
     }
 }
