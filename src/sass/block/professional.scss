@@ -32,6 +32,7 @@
 .professional__footer {
     display: flex;
     flex-direction: column;
+    margin-left: 315px;
     font-size: 19px;
     font-weight: 500;
     line-height: 30px;
@@ -61,14 +62,11 @@
     .professional__footer {
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    .professional__name {
-        margin-left: auto;
+        margin-left: 0;
     }
 
     .professional__product {
-        bottom: -80px;
+        bottom: -145px;
     }
 }
 
